@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  LandmarkDetail.swift
 //  Landmarks
 //
-//  Created by Thomas Garayua on 2/23/23.
+//  Created by Thomas Garayua on 2/28/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView()
@@ -27,10 +27,9 @@ struct ContentView: View {
                         .font(.subheadline)
                     Spacer()
                     Text("California")
-                        .font(.subheadline)
                     
                 }
-                .font(.subheadline)L
+                .font(.subheadline)
                 .foregroundColor(.secondary)
                 
                 Divider()
@@ -46,8 +45,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetail()
     }
 }
